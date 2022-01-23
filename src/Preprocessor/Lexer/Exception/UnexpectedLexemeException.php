@@ -9,7 +9,7 @@
 
 declare(strict_types=1);
 
-namespace Serafim\FFILoader\Preprocessor\Lexer\Exception;
+namespace Nicodinus\FFILoader\Preprocessor\Lexer\Exception;
 
 /**
  * Class UnexpectedLexemeException

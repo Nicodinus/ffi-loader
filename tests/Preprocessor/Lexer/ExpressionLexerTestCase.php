@@ -9,11 +9,11 @@
 
 declare(strict_types=1);
 
-namespace Serafim\FFILoader\Tests\Preprocessor\Lexer;
+namespace Nicodinus\FFILoader\Tests\Preprocessor\Lexer;
 
-use Serafim\FFILoader\Preprocessor\Lexer\Exception\UnexpectedLexemeException;
-use Serafim\FFILoader\Preprocessor\Lexer\ExpressionLexer;
-use Serafim\FFILoader\Tests\TestCase;
+use Nicodinus\FFILoader\Preprocessor\Lexer\Exception\UnexpectedLexemeException;
+use Nicodinus\FFILoader\Preprocessor\Lexer\ExpressionLexer;
+use Nicodinus\FFILoader\Tests\TestCase;
 
 /**
  * Class ExpressionLexerTestCase

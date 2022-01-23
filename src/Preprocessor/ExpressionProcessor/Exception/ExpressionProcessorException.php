@@ -9,7 +9,7 @@
 
 declare(strict_types=1);
 
-namespace Serafim\FFILoader\Preprocessor\ExpressionProcessor\Exception;
+namespace Nicodinus\FFILoader\Preprocessor\ExpressionProcessor\Exception;
 
 /**
  * Class ExpressionProcessorException

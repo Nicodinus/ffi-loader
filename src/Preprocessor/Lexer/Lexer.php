@@ -9,7 +9,7 @@
 
 declare(strict_types=1);
 
-namespace Serafim\FFILoader\Preprocessor\Lexer;
+namespace Nicodinus\FFILoader\Preprocessor\Lexer;
 
 /**
  * Class Lexer

@@ -9,21 +9,21 @@
 
 declare(strict_types=1);
 
-namespace Serafim\FFILoader\Preprocessor;
+namespace Nicodinus\FFILoader\Preprocessor;
 
 use Phplrt\Contracts\Lexer\LexerInterface;
-use Serafim\FFILoader\Preprocessor\Exception\ExpressionTokenException;
-use Serafim\FFILoader\Preprocessor\Exception\IncludeDisabledException;
-use Serafim\FFILoader\Preprocessor\Exception\IncludeException;
-use Serafim\FFILoader\Preprocessor\Exception\IncludeMaxDepthReachedException;
-use Serafim\FFILoader\Preprocessor\Exception\InvalidDefineTokenDefinitionException;
-use Serafim\FFILoader\Preprocessor\Exception\InvalidDefineTokenOperationException;
-use Serafim\FFILoader\Preprocessor\ExpressionProcessor\Exception\NotEnoughTokensException;
-use Serafim\FFILoader\Preprocessor\ExpressionProcessor\Exception\UnexpectedTokenException;
-use Serafim\FFILoader\Preprocessor\ExpressionProcessor\ExpressionProcessor;
-use Serafim\FFILoader\Preprocessor\ExpressionProcessor\ExpressionProcessorInterface;
-use Serafim\FFILoader\Preprocessor\Lexer\Exception\UnexpectedLexemeException;
-use Serafim\FFILoader\Preprocessor\Lexer\Lexer;
+use Nicodinus\FFILoader\Preprocessor\Exception\ExpressionTokenException;
+use Nicodinus\FFILoader\Preprocessor\Exception\IncludeDisabledException;
+use Nicodinus\FFILoader\Preprocessor\Exception\IncludeException;
+use Nicodinus\FFILoader\Preprocessor\Exception\IncludeMaxDepthReachedException;
+use Nicodinus\FFILoader\Preprocessor\Exception\InvalidDefineTokenDefinitionException;
+use Nicodinus\FFILoader\Preprocessor\Exception\InvalidDefineTokenOperationException;
+use Nicodinus\FFILoader\Preprocessor\ExpressionProcessor\Exception\NotEnoughTokensException;
+use Nicodinus\FFILoader\Preprocessor\ExpressionProcessor\Exception\UnexpectedTokenException;
+use Nicodinus\FFILoader\Preprocessor\ExpressionProcessor\ExpressionProcessor;
+use Nicodinus\FFILoader\Preprocessor\ExpressionProcessor\ExpressionProcessorInterface;
+use Nicodinus\FFILoader\Preprocessor\Lexer\Exception\UnexpectedLexemeException;
+use Nicodinus\FFILoader\Preprocessor\Lexer\Lexer;
 
 /**
  * Class AbstractPreprocessor

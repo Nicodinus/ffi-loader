@@ -19,12 +19,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Serafim\\FFILoader\\": "src"
+            "Nicodinus\\FFILoader\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Serafim\\FFILoader\\Tests\\": "tests"
+            "Nicodinus\\FFILoader\\Tests\\": "tests"
         }
     },
     "require": {

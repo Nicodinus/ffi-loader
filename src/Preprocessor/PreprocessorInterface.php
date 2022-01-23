@@ -9,14 +9,14 @@
 
 declare(strict_types=1);
 
-namespace Serafim\FFILoader\Preprocessor;
+namespace Nicodinus\FFILoader\Preprocessor;
 
-use Serafim\FFILoader\Preprocessor\Exception\ExpressionTokenException;
-use Serafim\FFILoader\Preprocessor\Exception\IncludeDisabledException;
-use Serafim\FFILoader\Preprocessor\Exception\IncludeException;
-use Serafim\FFILoader\Preprocessor\Exception\IncludeMaxDepthReachedException;
-use Serafim\FFILoader\Preprocessor\Exception\InvalidDefineTokenDefinitionException;
-use Serafim\FFILoader\Preprocessor\Exception\InvalidDefineTokenOperationException;
+use Nicodinus\FFILoader\Preprocessor\Exception\ExpressionTokenException;
+use Nicodinus\FFILoader\Preprocessor\Exception\IncludeDisabledException;
+use Nicodinus\FFILoader\Preprocessor\Exception\IncludeException;
+use Nicodinus\FFILoader\Preprocessor\Exception\IncludeMaxDepthReachedException;
+use Nicodinus\FFILoader\Preprocessor\Exception\InvalidDefineTokenDefinitionException;
+use Nicodinus\FFILoader\Preprocessor\Exception\InvalidDefineTokenOperationException;
 
 /**
  * Class PreprocessorInterface

@@ -9,11 +9,11 @@
 
 declare(strict_types=1);
 
-namespace Serafim\FFILoader\Preprocessor\ExpressionProcessor;
+namespace Nicodinus\FFILoader\Preprocessor\ExpressionProcessor;
 
-use Serafim\FFILoader\Preprocessor\ExpressionProcessor\Exception\NotEnoughTokensException;
-use Serafim\FFILoader\Preprocessor\ExpressionProcessor\Exception\UnexpectedTokenException;
-use Serafim\FFILoader\Preprocessor\Lexer\Exception\UnexpectedLexemeException;
+use Nicodinus\FFILoader\Preprocessor\ExpressionProcessor\Exception\NotEnoughTokensException;
+use Nicodinus\FFILoader\Preprocessor\ExpressionProcessor\Exception\UnexpectedTokenException;
+use Nicodinus\FFILoader\Preprocessor\Lexer\Exception\UnexpectedLexemeException;
 
 /**
  * Class ExpressionProcessorInterface

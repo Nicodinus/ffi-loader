@@ -9,7 +9,7 @@
 
 declare(strict_types=1);
 
-namespace Serafim\FFILoader\Preprocessor\Exception;
+namespace Nicodinus\FFILoader\Preprocessor\Exception;
 
 /**
  * Class IncludeException

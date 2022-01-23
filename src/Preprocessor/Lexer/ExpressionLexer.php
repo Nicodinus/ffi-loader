@@ -9,9 +9,9 @@
 
 declare(strict_types=1);
 
-namespace Serafim\FFILoader\Preprocessor\Lexer;
+namespace Nicodinus\FFILoader\Preprocessor\Lexer;
 
-use Serafim\FFILoader\Preprocessor\Lexer\Exception\UnexpectedLexemeException;
+use Nicodinus\FFILoader\Preprocessor\Lexer\Exception\UnexpectedLexemeException;
 
 /**
  * Class ExpressionLexer

@@ -9,7 +9,7 @@
 
 declare(strict_types=1);
 
-namespace Serafim\FFILoader\Tests;
+namespace Nicodinus\FFILoader\Tests;
 
 use PHPUnit\Framework\TestCase as BaseTestCase;
 
@@ -18,5 +18,5 @@ use PHPUnit\Framework\TestCase as BaseTestCase;
  */
 abstract class TestCase extends BaseTestCase
 {
-    
+
 }

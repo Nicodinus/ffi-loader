@@ -9,9 +9,9 @@
 
 declare(strict_types=1);
 
-namespace Serafim\FFILoader\Tests\Preprocessor;
+namespace Nicodinus\FFILoader\Tests\Preprocessor;
 
-use Serafim\FFILoader\Tests\TestCase;
+use Nicodinus\FFILoader\Tests\TestCase;
 
 /**
  * Class PreprocessorTestCase
