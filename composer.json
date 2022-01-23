@@ -1,40 +1,48 @@
 {
-    "name": "serafim/ffi-loader",
+    "name": "nicodinus/php-ffi-loader",
+    "homepage": "https://github.com/Nicodinus/php-ffi-loader",
     "description": "FFI libraries loader with simple preprocessor",
-    "license": "MIT",
     "keywords": [
         "ffi",
         "parser",
         "compiler",
         "loader"
     ],
-    "require": {
-        "php": ">=7.4",
-        "ext-ffi": "*",
-        "phplrt/lexer-contracts": "^3.0"
-    },
+    "type": "lib",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nicodinus",
+            "email": "nicodinus@yandex.ru"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Serafim\\FFILoader\\": "src"
         }
-    },
-    "require-dev": {
-        "phpunit/phpunit": "~9.1",
-        "symfony/var-dumper": "~5.0"
     },
     "autoload-dev": {
         "psr-4": {
             "Serafim\\FFILoader\\Tests\\": "tests"
         }
     },
+    "require": {
+        "php": ">=7.4",
+        "ext-ffi": "*",
+        "phplrt/lexer-contracts": "^3.0"
+    },
+    "require-dev": {
+        "larapack/dd": "^1.1",
+        "phpunit/phpunit": "^9.5"
+    },
     "config": {
         "sort-packages": true
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "extra": {
         "branch-alias": {
             "dev-master": "1.0.x-dev"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }

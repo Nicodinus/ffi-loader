@@ -14,6 +14,8 @@ namespace Serafim\FFILoader\Preprocessor;
 use Phplrt\Contracts\Lexer\LexerInterface;
 use Phplrt\Contracts\Lexer\TokenInterface;
 use Serafim\FFILoader\Preprocessor;
+use Serafim\FFILoader\Preprocessor\ExpressionProcessor\ExpressionProcessor;
+use Serafim\FFILoader\Preprocessor\Lexer\ExpressionLexer;
 
 /**
  * Class Expression
@@ -48,14 +50,14 @@ class Expression
     private LexerInterface $expr;
 
     /**
-     * @var Preprocessor
+     * @var ExpressionProcessor
      */
     private Preprocessor $pre;
 
     /**
      * Expression constructor.
      *
-     * @param Preprocessor $pre
+     * @param ExpressionProcessor $pre
      */
     public function __construct(Preprocessor $pre)
     {

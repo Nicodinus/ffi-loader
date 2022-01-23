@@ -17,7 +17,7 @@ use Serafim\FFILoader\Preprocessor\DefaultDefinesTrait;
 use Serafim\FFILoader\Preprocessor\Expression;
 use Serafim\FFILoader\Preprocessor\InteractWithDefinesTrait;
 use Serafim\FFILoader\Preprocessor\InteractWithIncludesTrait;
-use Serafim\FFILoader\Preprocessor\Lexer;
+use Serafim\FFILoader\Preprocessor\Lexer\Lexer;
 
 /**
  * Class Preprocessor

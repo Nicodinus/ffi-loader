@@ -23,6 +23,7 @@ interface PreprocessorInterface extends
 {
     /**
      * @param string $file
+     *
      * @return string
      */
     public function file(string $file): string;
@@ -30,7 +31,23 @@ interface PreprocessorInterface extends
     /**
      * @param string $source
      * @param string|null $localDirectory
+     *
      * @return string
      */
     public function source(string $source, string $localDirectory = null): string;
+
+    /**
+     * @return bool
+     */
+    public function isKeepComments(): bool;
+
+    /**
+     * @return bool
+     */
+    public function isTolerant(): bool;
+
+    /**
+     * @return bool
+     */
+    public function isMinifyEnabled(): bool;
 }

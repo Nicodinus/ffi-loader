@@ -9,7 +9,7 @@
 
 declare(strict_types=1);
 
-namespace Serafim\FFILoader\Preprocessor;
+namespace Serafim\FFILoader\Preprocessor\Lexer;
 
 use Phplrt\Contracts\Lexer\TokenInterface;
 
@@ -18,20 +18,16 @@ use Phplrt\Contracts\Lexer\TokenInterface;
  */
 final class Token implements TokenInterface
 {
-    /**
-     * @var string
-     */
+    /** @var string */
     private string $name;
 
-    /**
-     * @var string
-     */
+    /** @var string */
     private string $value;
 
-    /**
-     * @var int
-     */
+    /** @var int */
     private int $offset;
+
+    //
 
     /**
      * Token constructor.
@@ -48,7 +44,7 @@ final class Token implements TokenInterface
     }
 
     /**
-     * {@inheritDoc}
+     * @inheritDoc
      */
     public function getName(): string
     {
@@ -56,7 +52,7 @@ final class Token implements TokenInterface
     }
 
     /**
-     * {@inheritDoc}
+     * @inheritDoc
      */
     public function getOffset(): int
     {
@@ -64,7 +60,7 @@ final class Token implements TokenInterface
     }
 
     /**
-     * {@inheritDoc}
+     * @inheritDoc
      */
     public function getValue(): string
     {
@@ -72,7 +68,7 @@ final class Token implements TokenInterface
     }
 
     /**
-     * {@inheritDoc}
+     * @inheritDoc
      */
     public function getBytes(): int
     {
