@@ -88,8 +88,6 @@ SOURCE_CODE;
                 $currentExpectedLexemeName = $currentExpectedLexeme;
             }
 
-            dump($token);
-
             $this->assertSame($currentExpectedLexemeName, $token->getName());
             if ($currentExpectedLexemeValue !== null) {
                 $this->assertSame($currentExpectedLexemeValue, $token->getValue());

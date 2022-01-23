@@ -6,7 +6,8 @@
         "ffi",
         "parser",
         "compiler",
-        "loader"
+        "loader",
+        "preprocessor"
     ],
     "type": "lib",
     "license": "MIT",
@@ -28,7 +29,6 @@
     },
     "require": {
         "php": ">=7.4",
-        "ext-ffi": "*",
         "phplrt/lexer-contracts": "^3.0"
     },
     "require-dev": {
@@ -40,7 +40,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0.x-dev"
+            "dev-master": "2.0.x-dev"
         }
     },
     "minimum-stability": "dev",
